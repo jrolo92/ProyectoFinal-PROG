@@ -17,5 +17,10 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path="C:/Users/usuario/Documents/1 DAW/PROGRAMACIÓN/UD8/mariadb-java-client-3.5.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/usuario/Documents/1 DAW/PROGRAMACIÓN/UD8/objectdb-2.9.3/bin/objectdb-2.9.3.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

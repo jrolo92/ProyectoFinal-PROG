@@ -5,9 +5,7 @@ import java.util.UUID;
 
 //@Embeddable
 public class Usuario extends Persona implements Serializable {
-    /**
-	 * 
-	 */
+
 	private static final long serialVersionUID = 1L;
 	private String nombre;
 	private String uuid;
