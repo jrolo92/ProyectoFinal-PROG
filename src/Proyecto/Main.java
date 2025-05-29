@@ -58,7 +58,7 @@ public class Main  {
                             // En un caso real, aquí se aplicaría hash a la contraseña
                             Usuario nuevoUsuario = new Usuario(nombre, contrasena);
                             gestion.insertarUsuario(nuevoUsuario);
-                            System.out.println("Usuario registrado con éxito.");
+                            System.out.printf("Usuario registrado con éxito.%n");
 
                         } catch (IllegalArgumentException | AssertionError e) {
                             System.out.println("Error: " + e.getMessage());
