@@ -24,6 +24,7 @@ public class Main  {
             System.out.println("3. Borrar usuario");
             System.out.println("4. Buscar usuario");
             System.out.println("5. Salir");
+            System.out.println("6.PrintF");
             System.out.print("Seleccione una opción: ");
 
             try {
@@ -93,6 +94,12 @@ public class Main  {
                     case 5:
                         System.out.println("Saliendo del programa...");
                         break;
+                        
+                    case 6:
+                    	String nombreprueba="Juan";
+                    	
+                    	System.out.printf("Nombre: %s\n ",nombreprueba);
+                    	break;
 
                     default:
                         try {
